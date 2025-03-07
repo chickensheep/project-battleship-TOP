@@ -1,0 +1,148 @@
+body {
+	background-color: hsl(0, 0%, 90%);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+hr {
+	width: 100%;
+}
+
+/* Page one */
+
+.headerWelcome {
+	font-size: 50px;
+	margin: 30px 0px;
+}
+
+#nameInput {
+	font-size: 20px;
+}
+
+/* Page two */
+
+.hello {
+	font-size: 50px;
+	margin: 30px 0px;
+}
+
+select,
+option {
+	font-size: 100px;
+}
+
+.selectDialog {
+	font-size: 50px;
+}
+
+.selectContainer {
+	display: flex;
+}
+
+.selectContainers {
+	display: flex;
+	gap: 20px;
+}
+
+.board {
+	display: grid;
+	grid-template: repeat(10, 30px) / repeat(10, 30px);
+	border: 1px black solid;
+	margin-bottom: 20px;
+	width: 300px;
+}
+
+.cell {
+	border: 1px black solid;
+	height: 30px;
+	width: 30px;
+}
+
+.cellBoat {
+	border: 1px black solid;
+	height: 30px;
+	width: 30px;
+	background-color: hsl(0, 0%, 30%);
+}
+
+button {
+	font-size: 30px;
+	background-color: white;
+	border-radius: 10px;
+	border: black 1px solid;
+	padding: 5px 10px;
+}
+
+.startGameDiv {
+	display: flex;
+	align-items: center;
+}
+
+.startGameButton {
+	height: 50px;
+	margin-left: 20px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Page Three */
+
+.humanHeader,
+.computerHeader {
+	font-size: 40px;
+	text-align: center;
+	margin: 20px;
+}
+
+.humanBoard,
+.computerBoard {
+	width: 300px;
+	border: 1px black solid;
+	display: grid;
+	grid-template: repeat(10, 30px) / repeat(10, 30px);
+}
+
+.cellHit {
+	border: 1px black solid;
+	height: 30px;
+	width: 30px;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+}
+
+.cellMiss {
+	border: 1px black solid;
+	height: 30px;
+	width: 30px;
+	background-color: rgb(255, 122, 122);
+}
+
+.boardDiv {
+	display: flex;
+	gap: 200px;
+}
+
+.instruction {
+	font-size: 50px;
+	margin: 30px 0px;
+}
+
+.result {
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+/* Page Four */
